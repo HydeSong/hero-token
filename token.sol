@@ -86,7 +86,7 @@ contract StandardToken is Token {
 contract HeroToken is StandardToken, SafeMath {
  
     // metadata
-    string  public constant name = "Hero";
+    string  public constant name = "Hero Token";
     string  public constant symbol = "HERO";
     uint256 public constant decimals = 18;
     string  public version = "1.0";
